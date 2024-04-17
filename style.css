@@ -1,0 +1,90 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+}
+
+header {
+  border: 1px solid #ccc;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+nav {
+  padding: 20px 10px;
+}
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  color: black;
+}
+nav ul li:hover {
+  background: #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+/* Main Section */
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  scroll-margin: 50px;
+}
+
+
+section h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  color: #343a40;
+}
